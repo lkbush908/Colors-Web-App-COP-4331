@@ -139,6 +139,10 @@ function addColor()
 	
 }
 
+if (typeof module !== 'undefined') {
+    module.exports = { addColor };
+}
+
 function searchColor()
 {
 	let srch = document.getElementById("searchText").value;
